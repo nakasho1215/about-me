@@ -1,0 +1,55 @@
+html {
+    font-size: 0.625rem;
+}
+
+body {
+    color: #ffffff;
+    background-color: black;
+    line-height: 1.7;
+    font-size: 1.4rem;
+    line-height: .1em;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 400;
+}
+
+*  {
+    margin: 300;
+    padding: 300;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.wrapper {
+    margin: auto 10vw;
+}
+
+h1{
+    font-size: 4.8rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title::before{
+    content: "";
+    height: 1px;
+    flex-grow: 0.3;
+    background-color: #ffffff;
+    margin-right: 3rem;
+}
